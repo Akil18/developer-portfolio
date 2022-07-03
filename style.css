@@ -11,14 +11,15 @@ h1 > span {
   color: gray;
 }
 
-section {
+.flexible-container {
   display: flex;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 
 .half-width {
   width: 50%;
   padding: 5%;
+  height: 50%;
 }
 
 .half-width img {
@@ -43,4 +44,34 @@ section {
   background-image: url(assets/batman-bg.png);
   background-repeat: no-repeat;
   background-position: 100% 100%;
+}
+
+.story {
+  background-image: url(assets/batman-bg.png);
+  background-repeat: no-repeat;
+}
+
+.story-card {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px gray;
+}
+
+#first-card {
+  border-left: 7px solid black;
+}
+
+#second-card {
+  border-left: 7px solid gray;
+}
+
+.gray-color {
+  color: gray;
+}
+
+footer p {
+  text-align: center;
 }
